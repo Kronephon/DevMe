@@ -21,7 +21,7 @@ function createLink(parent, icon, link){
 function addLinks(input){
     const links = document.getElementById(input);
     if(links){
-        createLink(links, "{{site.instagram.icon}}", "{{site.instagram.link}}");
+        //createLink(links, "{{site.instagram.icon}}", "{{site.instagram.link}}");
         //createLink(links, "{{site.twitter.icon}}", "{{site.twitter.link}}");
         createLink(links, "{{site.github.icon}}", "{{site.github.link}}");
         createLink(links, "{{site.linkedin.icon}}", "{{site.linkedin.link}}");
