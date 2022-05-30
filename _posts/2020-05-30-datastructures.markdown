@@ -6,6 +6,8 @@ tags: [C++, algorithms, data structures]
 description: Here's a quick summary of the more famous data structures present in C++, access times and intended usage
 ---
 
+# Data Structures in C++
+
 I'd like to start off this post by going through most of the data structures present in C++, as a sort of introduction into them. 
 
 This article was written in 2021, with C++14 in mind, there are no major changes to how data structures work but there might be very minor changes to some syntax.
@@ -21,7 +23,7 @@ _Why am I writing about concrete implementations instead of just generic data st
 
 Because this is largely focused in C++, and although most of the knowledge about arrays, sets, hash maps etc applies we also wish to take advantage of pre-existing C++ or C standard implementations, making our lifes just a bit easier.
 
-# The Vector
+## The Vector
 
 The most commonly used by far, the vector is an ordered container of items of the same type, stored contiguously in memory (at least the virtual memory). The std library already has a vector inside of it and it will likely be the most used data structure in C++. Since C++11 most of the standard library data structures support a pointer (memory address) to their first item as well as one after its end.
 
@@ -47,21 +49,21 @@ You can find the full specification here:
 
 https://www.cplusplus.com/reference/vector/vector/
 
-# The Array
+## The Array
 
-# The Lists
+## The Lists
 
-# Stack/Queue
+## Stack/Queue
 
-# Trees (Tree, Binary Tree, Binary Search Tree, Red-Black Tree, etc.)
+## Trees (Tree, Binary Tree, Binary Search Tree, Red-Black Tree, etc.)
 
-# Heap
+## Heap
 
-# The Maps (unordered etc)
+## The Maps (unordered etc)
 
 TODO: this is really important - understand all of the different collision mitigation mechanisms, understand what amortized constant-time means)
 
-# Directed/Undirected/Weighted Graphs
+## Directed/Undirected/Weighted Graphs
 
 # Trie (pronounced "tree")
 

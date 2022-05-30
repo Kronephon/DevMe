@@ -23,10 +23,17 @@ a{
 }
 
 h1{
+    font-size: 60px;
+    color: var(--primary2);
+    font-weight: bold;
+}
+
+h2{
     font-size: 40px;
     color: var(--primary2);
     font-weight: bold;
 }
+
 .articleDate{
     color: var(--grey3);
     font-size: 15px;
