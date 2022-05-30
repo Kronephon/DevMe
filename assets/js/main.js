@@ -102,7 +102,7 @@ if(loader)
 {
         if(typeof(loader) !== 'undefined')
         {
-        element.style.display = "none";
+        loader.style.display = "none";
         }
     var event = new CustomEvent('loadingEnded');
     loader.dispatchEvent(event);
