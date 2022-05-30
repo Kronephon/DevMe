@@ -2,8 +2,8 @@
 layout: post
 title:  "Welcome / Roadmap"
 date:   2019-8-3
-tags: []
-description: Just wanted to welcome you to my website, which I intend to make into a platform through which I share most of my personal projects as well as helpful tips/tutorials on areas that I love. It will mostly be computer engineering/software development but it will end up reflecting most of the areas which I love to work on, be it C++ or music scale theory. Regardless, in this post I will talk a little bit about the content I intend to add from either past, present or future projects.
+tags: [welcome]
+description: Just wanted to welcome you to my website, which I intend to make into a platform through which I share most of my personal projects as well as helpful tips/tutorials on areas that I love. It will mostly be computer engineering/software development. 
 ---
 
 Just wanted to welcome you to my website, which I intend to be a platform through which I share most of my personal projects as well as helpful tips/tutorials. It will mostly be computer engineering stuff but it will end up reflecting most of the areas which I love to work on.
@@ -13,8 +13,8 @@ A lot of it still needs to be added but for now I'd like to just list the projec
   * three.js/webgl interesting projects
   * some convolutional neural network fun things applied to computer vision
   * big data visualization and organization - challenges of parsing obscene amounts of data
-  * a home assistant I'm designing from scratch
-  * unreal engine goodies, modo modelling, and a game I'm working on
+  * a home assistant design and WoT
+  * unreal engine goodies, modo modelling
   * music composing is a hobby of mine too and I'm actively trying to compose my first album
   * this website (of course!) was a project of its own.
 

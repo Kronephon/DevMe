@@ -1,0 +1,71 @@
+--- 
+
+--- 
+#Body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Main{
+    background-color: var(--white);
+}
+#Content{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:20px;
+}
+
+h1{
+    font-size: 40px;
+    color: var(--primary2);
+    font-weight: bold;
+}
+.articleDate{
+    color: var(--grey3);
+    font-size: 15px;
+    font-style: oblique;
+}
+p{
+    padding-top: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+#Left{
+
+}
+#Right{
+
+}
+#Footer{
+
+}
+
+/* portrait sorta */
+@media (max-width: 768px) {
+
+  }
+
+/* cellphone */
+@media only screen and (max-device-width : 640px) {
+    .articleTitle{
+        font-size: 40px;
+    }
+    .articleDate{
+        font-size: 30px;
+    }
+    .articleText{
+        font-size: 36px;
+    }
+}
