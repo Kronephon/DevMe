@@ -1,7 +1,7 @@
 ---
 layout: about
 title: 
-description: Contact page for Krone.dev
+description: Contact page for Pe6r0
 permalink: /
 
 css: [constants]
