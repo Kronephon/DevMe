@@ -100,7 +100,7 @@ if(header){
 const loader = document.getElementById("loader");
 if(loader)
 {
-        if(typeof(element) !== 'undefined')
+        if(typeof(loader) !== 'undefined')
         {
         element.style.display = "none";
         }
