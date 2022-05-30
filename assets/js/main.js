@@ -97,7 +97,14 @@ if(header){
 }
 
 //loader
-if(loader){
+const loader = document.getElementById("loader");
+if(loader)
+{
+        if(typeof(element) !== 'undefined')
+        {
+        element.style.display = "none";
+        }
     var event = new CustomEvent('loadingEnded');
     loader.dispatchEvent(event);
 }
+console.log("Cheeky little one aren't you? :)");
