@@ -3687,6 +3687,8 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			border-radius: 0;
+			filter: blur(10px);
+  			-webkit-filter: blur(10px);
 		}
 
 			.banner.style2 .image img {
