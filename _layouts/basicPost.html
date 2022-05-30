@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<meta name="description" content="{% if page.title %}{{ page.description }}{% else %}{{ site.title}}{% endif %}">  
+<link rel="icon" type="img/ico" href="assets/img/myico.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../../assets/post/css/main.css" />
+		<noscript><link rel="stylesheet" href="../../../assets/post/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style2 content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							{{content}}
+						</div>
+						<div class="image">
+							<img src="../../../assets/img/background.jpeg" alt="" />
+						</div>
+					</section>
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../../assets/post/js/jquery.min.js"></script>
+			<script src="../../../assets/post/js/jquery.scrollex.min.js"></script>
+			<script src="../../../assets/post/js/jquery.scrolly.min.js"></script>
+			<script src="../../../assets/post/js/browser.min.js"></script>
+			<script src="../../../assets/post/js/breakpoints.min.js"></script>
+			<script src="../../../assets/post/js/util.js"></script>
+			<script src="../../../assets/post/js/main.js"></script>
+
+	</body>
+</html>

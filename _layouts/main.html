@@ -1,13 +1,20 @@
----
-layout: basic
----
-<div id='Loading'>{% include loader.html %}</div>
-<div id = 'Body'>
-    <div id='Header'>{% include header.html %}</div>
-    <div id='Main'>
-        <div id='Content'>{{content}}</div>
-        <div id='Left'></div>
-        <div id='Right'></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+    <div id='Loading'>{% include loader.html %}</div>
+    <div id = 'Body'>
+        <div id='Header'>{% include header.html %}</div>
+        <div id='Main'>
+            <div id='Content'>{{content}}</div>
+            <div id='Left'></div>
+            <div id='Right'></div>
+        </div>
+        <div id='Footer'>{% include footer.html %}</div>
     </div>
-    <div id='Footer'>{% include footer.html %}</div>
-</div>
+</body>
+</html>
+
+
