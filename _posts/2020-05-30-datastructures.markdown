@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basicPost
 title:  "C++ Data Structures Overview"
 date:   2020-5-30
 tags: [C++, algorithms, data structures]
